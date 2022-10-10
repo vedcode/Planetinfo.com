@@ -81,7 +81,7 @@ ul input{
 
 .card h1{
   color: #F67F08;
-  font-size: 60px;
+  font-size: 40px;
   font-style: bold;
 }
 
@@ -90,10 +90,4 @@ ul input{
   color: black;
 
   
-}
-
-body{
-  background-image: url(b.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
