@@ -91,3 +91,9 @@ ul input{
 
   
 }
+
+body{
+  background-image: url(b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
