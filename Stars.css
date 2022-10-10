@@ -1,0 +1,86 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+  border-radius: 30px;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+li a:active{
+  background-color: lightgrey;
+}
+
+.container{
+  width: 1170;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid;
+  display: flex;
+  margin: 50px;
+}
+
+.card{
+  margin-top: 30px;
+  flex-basis: 27%;
+  box-shadow: 0px 0px 10px 4px lightgrey;
+  text-align: center;
+  margin-bottom: 30px;  
+  border-radius: 20px;
+/*  background-image: url(b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;*/
+  background-color: black;
+  
+}
+
+.card button{
+  background-color: blueviolet;
+  margin-bottom: 25px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.card:hover{
+   box-shadow: 0px 0px 40px 10px lightgrey;
+}
+
+
+.card h1{
+  color: #F67F08;
+  font-size: 60px;
+  font-style: bold;
+}
+
+.card a{
+  text-decoration: none;
+  color: black;
+
+  
+}
+
+
